@@ -1,0 +1,13 @@
+package java2blog;
+
+import org.apache.commons.lang3.RandomUtils;
+
+public class RandomIntegerExample {
+
+    public static void main(String[] args) 
+    {   
+        int myRandInt = RandomUtils.nextInt(0, 100);
+        myRandInt = myRandInt+1;
+        System.out.println("Random number between 1 and 100: "+myRandInt);
+    }
+}
